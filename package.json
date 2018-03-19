@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape ./test/*.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/cutejs/diet-db/issues"
   },
-  "homepage": "https://github.com/cutejs/diet-db#readme"
+  "homepage": "https://github.com/cutejs/diet-db#readme",
+  "dependencies": {
+    "diet-router": "^1.0.2",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "diet": "^0.16.0",
+    "request": "^2.83.0",
+    "rimraf": "^2.6.2",
+    "tape": "^4.8.0"
+  }
 }
